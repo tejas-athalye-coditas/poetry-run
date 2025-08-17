@@ -1,0 +1,2 @@
+[poetry.command]
+pluginrun = runner_plugin.command:RunnerCommand
