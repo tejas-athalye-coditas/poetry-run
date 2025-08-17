@@ -18,6 +18,9 @@ hello = "main:greet"
 [tool.poetry.scripts]
 noice = "main:main"
 
+[tool.poe.tasks]
+dev = "python main.py"
+
 [tool.poetry]
 packages = [{include = "ice_cream", from = "src"}]
 
