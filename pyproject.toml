@@ -12,6 +12,9 @@ dependencies = [
     "poethepoet (>=0.37.0,<0.38.0)"
 ]
 
+[tool.poetry.plugins."poetry.command"]
+pluginrun = "runner_plugin.command:RunnerCommand"
+
 [project.scripts]
 hello = "main:greet"
 runit = "runner:run"
