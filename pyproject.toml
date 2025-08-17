@@ -17,6 +17,7 @@ hello = "main:greet"
 
 [tool.poetry.scripts]
 noice = "main:main"
+runner = "runner:run"
 
 [tool.poe.tasks]
 dev = "python main.py"
