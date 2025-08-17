@@ -22,7 +22,7 @@ runit = "runner:run"
 [tool.poetry.scripts]
 noice = "main:main"
 runner = "runner:run"
-dev = "main:__main__"
+dev = "main:__name__"
 
 [tool.poe.tasks]
 dev = "python main.py"
