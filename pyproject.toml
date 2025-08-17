@@ -15,6 +15,9 @@ dependencies = [
 [project.scripts]
 hello = "main:greet"
 
+[tool.poetry.scripts]
+noice = "main:"
+
 [tool.poetry]
 packages = [{include = "ice_cream", from = "src"}]
 
